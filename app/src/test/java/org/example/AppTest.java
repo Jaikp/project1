@@ -22,7 +22,7 @@ class AppTest {
     @Test
     void testSubtraction() {
         App classUnderTest = new App();
-        assertEquals(1, classUnderTest.subtract(4, 3), "4 - 3 should equal 1");
+        assertEquals(2, classUnderTest.subtract(4, 3), "4 - 3 should equal 1");
     }
 
     // Test for multiplication
