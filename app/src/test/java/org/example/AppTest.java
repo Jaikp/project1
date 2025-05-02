@@ -15,7 +15,7 @@ class AppTest {
     @Test
     void testAddition() {
         App classUnderTest = new App();
-        assertEquals(5, classUnderTest.add(2, 3), "2 + 3 should equal 5");
+        assertEquals(5, classUnderTest.add(2, 3), "2  + 3 should equal 5");
     }
 
     // Test for subtraction
