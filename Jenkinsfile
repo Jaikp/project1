@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        gradle 'gradle' // Name of Gradle in Jenkins tools config
-    }
     stages {
         stage('Checkout') {
             steps {
@@ -21,4 +18,3 @@ pipeline {
         }
     }
 }
-
